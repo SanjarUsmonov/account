@@ -7,12 +7,63 @@
   <title>Loop 2 - Step 2</title>
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
   <link rel="stylesheet" href="./styles.css" />
+  <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
-  <!--
-    FYI:
-    Textarea resize in the design is a native feature of browsers.
-    Also there is no close icon in the assets, so you should try to find another way of implementing it.
-  -->
+    <div class="container">
+      <div class="box">
+        <div class="main">
+           <div class="head">
+              <h3>Account settings</h3>
+              <i class="fa-solid fa-xmark"></i>
+           </div> 
+           <div class="foot">
+            <h4>CANCEL</h4>
+            <h4>SAVE</h4>
+           </div>   
+        </div>
+        <div class="main2">
+            <img src="img/avatar.jpg" alt="">
+            <div class="inp">
+              <div class="box1">
+                <label for="text">USERNAME</label>
+                <br>
+                <input type="text" placeholder="Enter your username">
+              </div>
+              <div class="box2">
+                <div class="inp2">
+                  <label for="text">FIRST NAME</label>
+                  <br>
+                  <input class="first" type="text" placeholder="Enter your first name">
+                </div>
+                <div class="inp3">
+                  <label for="text">LAST NAME</label>
+                  <br>
+                  <input class="first" type="text" placeholder="Enter your first name">
+                </div>
+              </div>
+              <div class="box4">
+                <label for="text">EMAIL</label>
+                <br>
+                <input type="email" placeholder="Enter your first name">
+              </div>
+              <div class="box4">
+                <label for="text">BIO</label>
+                <br>
+                <textarea name="text" id="text" cols="30" rows="10" placeholder="Tell us about yourself"></textarea>
+              </div>
+            </div>
+        </div>
+      </div>
+
+
+    
+    </div>
 </body>
 </html>
